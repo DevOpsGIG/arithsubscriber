@@ -7,3 +7,5 @@ WORKDIR src/github.com/devopsgig/arithsubscriber
 RUN go build
 
 CMD ["./arithsubscriber"]
+
+EXPOSE 8081

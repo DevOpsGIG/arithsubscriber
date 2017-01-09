@@ -42,7 +42,7 @@ func main() {
 
 // ServiceAPI ...
 func ServiceAPI() {
-	addr := "127.0.0.1:8001"
+	addr := ":8081"
 	log.Fatal(http.ListenAndServe(addr, handlers()))
 }
 
